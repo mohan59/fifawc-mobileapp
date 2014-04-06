@@ -1,0 +1,63 @@
+{
+	"appHeader": "2014 FIFA World Cup BRAZIL",
+	"appFooter": "&copy; 2014 All rights reserved.",
+	"index": {
+		"trivia": [
+			{
+				"triviaText": "This is the <b>20th edition</b> of the quadrennial FIFA World Cup. The inaugural tournament was held in 1930 and the hosts Uruguay were crowned champions after defeating Argentina 4&#45;2 in the final. Francisco Varallo, an Argentine forward, was the last player from that edition to pass away on August 30 2010&#33;"
+			},
+			{
+				"triviaText": "There are <b>12 stadia in 12 host cities</b>. FIFA, the governing body, normally limits the number of host cities between 8 and 10 but accepted a proposal by former head of the Brazilian Football Federation to increase the number <i>&quot;in the interests of the whole country&quot;</i>."
+			},
+			{
+				"triviaText": "Match-balls are specifically created for the tournament with a unique name. Adidas, the official ball supplier since 1970, had a shortlist of 3 names for a public vote - <i>Bossa Nova</i>, <i>Carnavalesca</i>, and eventual winner, <i><b>Brazuca</b></i> (see below).<br/><br/><img src='img/brazuca.jpg' />"
+			},
+			{
+				"triviaText": "Brazil, the host, is also the most successful team in the world, winning the Jules Rimet trophy 5 times (1958, 1962, 1970, 1994, 2002). Italy has won four times (1934, 1938, 1982, 2006), Germany three (1954, 1974, 1990), and neighbours Uruguay (1930, 1950) and Argentina (1978, 1986) have won twice. England (1966), France (1998), and Spain (2010) have surprisingly won only once. The Netherlands holds the dubious distinction of being the eternal bridesmaid: runners-up in 1974, 1978, and 2010!"
+			},
+			{
+				"triviaText": "The quickest goal ever scored in the World Cup finals was achieved by Turkey's Hakan Ş&uuml;k&uuml;r in the 2002 edition. During the third place playoff against co-hosts Republic of Korea at Daegu, he stamped his name on the scoresheet (and in record books) after just <b>11 seconds</b>! Turkey went on to win 3-2, thus becoming the third best team of the tournament."
+			}
+			
+		]
+	},
+	"teams": [
+		{
+			"team": "arg",
+			"players": [
+				{
+					"playerName": "Sergio Romero",
+					"playerSquadNum": "1",
+					"playerPosition": "gkp",
+					"playerBirthDate": "Feb 22, 1987",
+					"playerCaps": "45",
+					"playerGoals": "0"
+				},
+				{
+					"playerName": "Pablo Zabaleta",
+					"playerSquadNum": "4",
+					"playerPosition": "def",
+					"playerBirthDate": "Jan 16, 1985",
+					"playerCaps": "36",
+					"playerGoals": "0"
+				},
+				{
+					"playerName": "&Aacute;ngel di Mar&iacute;a",
+					"playerSquadNum": "7",
+					"playerPosition": "mid",
+					"playerBirthDate": "Feb 14, 1988",
+					"playerCaps": "45",
+					"playerGoals": "9"
+				},
+				{
+					"playerName": "Lionel Messi (C)",
+					"playerSquadNum": "10",
+					"playerPosition": "fwd",
+					"playerBirthDate": "Jun 24, 1987",
+					"playerCaps": "84",
+					"playerGoals": "37"
+				}
+			]
+		} 
+	]
+}

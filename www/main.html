@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>2014 FIFA World Cup</title>		
+				
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+		<link rel="stylesheet" href="themes/world-cup-theme.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="css/application.css" />
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>		
+		<script src="js/jquery.jcarousel.min.js"></script>		
+		<script src="js/application.js" ></script>	
+		
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+		
+		<script>
+			$(document)
+				.one('pagebeforecreate', Application.initApplication);
+		</script>
+    </head>
+    <body>
+		
+		<div id="index-page" data-role="page" >
+			<!-- header -->
+			<header data-role="header" class="app-header" data-position="fixed">
+				<h1>2014 FIFA World Cup</h1>
+			</header>
+			<!-- /header -->
+			
+			<!-- content -->
+			<div id="indexContent" data-role="content" class="index-content hidden">
+			
+				<div class="countdown-container">
+					<div class="countdown-prompt">Countdown to kickoff:</div>
+				
+					<div class="countdown-wrapper">					
+						<table id="tableCountdown" class="table-countdown">						
+							<tbody>
+								<tr class="table-countdown-digits">
+									<th id="countdown-timer-days"></th>
+									<td> : </td>
+									<th id="countdown-timer-hours"></th>
+									<td> : </td>
+									<th id="countdown-timer-minutes"></th>
+									<td> : </td>
+									<th id="countdown-timer-seconds"></th>
+								</tr>	
+								<tr class="table-countdown-legend">
+									<td>days</td>
+									<td></td>
+									<td>hours</td>
+									<td></td>
+									<td>minutes</td>
+									<td></td>
+									<td>seconds</td>
+								</tr>		
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<!-- <div class="launch-link-container"> -->
+					<a href="teams.html" data-role="button" >Go to App</a>
+				<!-- </div> -->
+				
+				
+				<!-- <div id="triviaWidget" class="bubble-text">
+					<div class="bubble-text-title">Did you know?</div>
+					
+					<div class="bubble-text-body"><p>This is the <b>20th edition</b> of the quadrennial FIFA World Cup. The inaugural tournament was held in 1930 and the hosts Uruguay were crowned champions after defeating Argentina 4-2 in the final. Francisco Varallo, an Argentine forward, was the last player from that edition to pass away on August 30 2010!</p></div>
+				</div> -->
+				
+				<ul id="didYouKnow-content" data-role="listview" data-inset="true">
+					<li data-role="list-divider">Did you know?</li>
+					<li>
+						<div id="triviaText"></div>
+					</li>					
+				</ul>
+				
+			</div>
+			<!-- /content -->
+			
+			<!-- footer -->
+			<footer data-role="footer" data-position="fixed">
+				<h4>&copy; 2014 All rights reserved.</h4>
+			</footer>
+			<!-- /footer -->
+			
+		</div>	
+		
+    </body>
+</html>

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>2014 FIFA World Cup</title>
+   </head>
+   <body>	
+		<!-- STATS PAGE -->
+		<div id="stats-page" data-role="page" class="app-bg">
+			<div data-role="header" data-theme="a" style="overflow:hidden;" class="navbar-icon-style wc-text" data-position="fixed">
+				<h1>2014 FIFA World Cup</h1>
+				<div data-role="navbar" class="navbar-icon-style">
+					<ul>
+						<!-- <li><a href="live-match.html" id="live" data-icon="custom">LIVE</a></li> -->
+						<li><a href="teams.html" id="squads" data-icon="custom">TEAMS</a></li>
+						<li><a href="schedule.html" id="matches" data-icon="custom">SCHEDULE</a></li>
+						<li><a href="stats.html" id="stats" data-icon="custom" class="ui-btn-active select-nav">STATS</a></li>
+						<li><a href="settings.html" id="settings" data-icon="custom">SETTINGS</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /header -->
+			
+			<div data-role="content">	
+				<ul id="stats-content" data-role="listview" data-inset="true" >
+					<li data-role="list-divider">Group Standings</li>
+					<li>
+						<div class="jcarousel-wrapper">
+							<div id="groupCarousel" class="jcarousel">
+								
+								<div class="jcarousel-control">
+									<div id="groupPrev" class="jcarousel-control-prev"><a href="#"></a></div>
+									<div id="groupTitle" class="jcarousel-control-slide-title"></div>
+									<div id="groupNext" class="jcarousel-control-next"><a href="#"></a></div>
+								</div>
+								
+								<ul id="tableGroupList">
+									<li>
+										<table id="groupATable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/bra.png" alt="Brazil"></img>&#32;BRA</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/cro.png" alt="Croatia"></img>&#32;CRO</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/mex.png" alt="Mexico"></img>&#32;MEX</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/cmr.png" alt="Cameroon"></img>&#32;CMR</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupBTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/esp.png" alt="Spain"></img>&#32;ESP</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/ned.png" alt="Netherlands"></img>&#32;NED</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/chi.png" alt="Chile"></img>&#32;CHI</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/aus.png" alt="Australia"></img>&#32;AUS</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupCTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/col.png" alt="Colombia"></img>&#32;COL</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/gre.png" alt="Greece"></img>&#32;GRE</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/civ.png" alt="Cote d'Ivoire"></img>&#32;CIV</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/jpn.png" alt="Japan"></img>&#32;JPN</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupDTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/uru.png" alt="Uruguay"></img>&#32;URU</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/crc.png" alt="Costa Rica"></img>&#32;CRC</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/eng.png" alt="England"></img>&#32;ENG</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/ita.png" alt="Italy"></img>&#32;ITA</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupETable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/sui.png" alt="Switzerland"></img>&#32;SUI</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/ecu.png" alt="Ecuador"></img>&#32;ECU</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/fra.png" alt="France"></img>&#32;FRA</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/hon.png" alt="Honduras"></img>&#32;HON</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupFTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/arg.png" alt="Argentina"></img>&#32;ARG</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/bih.png" alt="Bosnia-Herzegovina"></img>&#32;BIH</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/irn.png" alt="Iran"></img>&#32;IRN</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/nga.png" alt="Nigeria"></img>&#32;NGA</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupGTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/ger.png" alt="Germany"></img>&#32;GER</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/por.png" alt="Portugal"></img>&#32;POR</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/gha.png" alt="Ghana"></img>&#32;GHA</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/usa.png" alt="United States"></img>&#32;USA</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="groupHTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">G</th>  
+													<th scope="col">W</th>
+													<th scope="col">D</th>  
+													<th scope="col">L</th>		
+													<th scope="col">P</th>  									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/bel.png" alt="Belgium"></img>&#32;BEL</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/alg.png" alt="Algeria"></img>&#32;ALG</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/rus.png" alt="Russia"></img>&#32;RUS</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/kor.png" alt="Korea Republic"></img>&#32;KOR</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+													<td>0</td> 
+													<td>0</td> 
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+								</ul>					
+								
+							</div>
+						</div>
+					</li>
+					
+					<li data-role="list-divider">Individual Records</li>
+					<li>
+						<div class="jcarousel-wrapper">
+							<div id="recordCarousel" class="jcarousel">								
+								<ul id="tableRecordsList">
+									<li>
+										<table id="goalsAssistsTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">GMS</th>  
+													<th scope="col">GLS</th>
+													<th scope="col">ASTS</th> 								
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/arg.png"></img>&#32;L Messi</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/por.png"></img>&#32;C Ronaldo</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/esp.png"></img>&#32;D Costa</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+												</tr>	
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="cleanSheetsTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">GMS</th>  
+													<th scope="col">CS</th>						
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/ita.png"></img>&#32;G Buffon</th> 
+													<td>0</td>
+													<td>0</td>
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/ger.png"></img>&#32;M Neuer</th> 
+													<td>0</td>
+													<td>0</td>
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/esp.png"></img>&#32;I Casillas</th> 
+													<td>0</td>
+													<td>0</td>
+												</tr>		
+											</tbody> 
+										</table>
+									</li>
+									<li>
+										<table id="disciplineTable" > 
+											<thead> 
+												<tr> 
+													<th scope="col"> </th>  
+													<th scope="col">GMS</th>  
+													<th scope="col"><img src="img/card-yellow.png"></img></th>
+													<th scope="col"><img src="img/card-red.png"></img></th> 									
+												</tr> 
+											</thead> 
+											<tbody> 
+												<tr> 
+													<th><img src="img/flags-16/chi.png"></img>&#32;A Vidal</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/fra.png"></img>&#32;M Flamini</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+												</tr>
+												<tr> 
+													<th><img src="img/flags-16/ned.png"></img>&#32;N de Jong</th> 
+													<td>0</td>
+													<td>0</td>
+													<td>0</td> 
+												</tr>
+											</tbody> 
+										</table>
+									</li>									
+								</ul>
+								
+								<div class="jcarousel-control">
+									<div id="recordPrev" class="jcarousel-control-prev"><a href="#"></a></div>
+									<div id="recordTitle" class="jcarousel-control-slide-title"></div>
+									<div id="recordNext" class="jcarousel-control-next"><a href="#"></a></div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+				
+				
+				<!-- <div data-role="collapsible-set" data-inset="false" id="stats-content" data-theme="a" data-content-theme="a" >
+					<div data-role="collapsible">
+						<h3>TEAM</h3>											
+						<div data-role="collapsible-set" data-inset="false" id="groupStandings" class="collapsible-content-sub">
+							<div data-role="collapsible">
+								<h4>Standings</h4>								
+								
+							</div>
+						</div>
+					</div>
+					
+					<div data-role="collapsible">
+						<h3>INDIVIDUAL</h3>
+						<div data-role="collapsible-set" data-inset="false" id="performanceStats"  class="collapsible-content-sub">
+							<div data-role="collapsible" id="goals">
+								<h4>Goals and Assists</h4>
+								<table id="tableGoalsAssists" class="table-stats">
+									<thead>
+										<tr>											
+											<th scope="col"></th>
+											<th scope="col">G</th>
+											<th scope="col">GS</th>
+											<th scope="col">PK</th>
+											<th scope="col">A</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th><img src="img/flags-16/arg.png">&#32;L. Messi</img></th>											
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th><img src="img/flags-16/por.png">&#32;C. Ronaldo</img></th>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div data-role="collapsible" id="cleansheets">
+								<h4>Clean Sheets</h4>
+								<table id="tableCleanSheets" class="table-stats">
+									<thead>
+										<tr>
+											<th></th>
+											<th>G</th>
+											<th>CS</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th><img src="img/flags-16/esp.png">&#32;I. Casillas</img></th>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th><img src="img/flags-16/ger.png">&#32;M. Neuer</img></th>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div data-role="collapsible" id="discipline">
+								<h4>Discipline</h4>
+								<table id="tableDiscipline" class="table-stats">
+									<thead>
+										<tr>
+											<th></th>
+											<th>G</th>
+											<th><img src="img/card-yellow.png"></img></th>
+											<th><img src="img/card-red.png"></img></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th><img src="img/flags-16/esp.png">&#32;S. Busquets</img></th>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th><img src="img/flags-16/chi.png">&#32;A. Vidal</img></th>
+											<td>0</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+									</tbody>
+								</table>		
+							</div>
+						</div>
+					</div>					
+				</div> -->				
+			</div>
+			<!-- /content -->
+			
+			<div data-role="footer" data-theme="a" data-content-theme="a" data-position="fixed">
+				<h4>&copy; 2014 All rights reserved.</h4>
+			</div> 
+			<!-- /footer -->
+			
+		</div>
+		<!-- /STATS PAGE -->
+			
+   </body>
+</html>

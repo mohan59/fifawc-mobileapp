@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>2014 FIFA World Cup</title>
+   </head>
+   <body>	
+		<!-- TEAMS PAGE -->
+		<div id="teams-page" data-role="page" class="app-bg">
+			<div data-role="header" data-theme="a" style="overflow:hidden;" class="navbar-icon-style wc-text" data-position="fixed">
+				<h1>2014 FIFA World Cup</h1>
+				<div data-role="navbar" class="navbar-icon-style">
+					<ul>
+						<!-- <li><a href="live-match.html" id="live" data-icon="custom">LIVE</a></li>-->
+						<li><a href="teams.html" id="squads" data-icon="custom" class="ui-btn-active select-nav">TEAMS</a></li>	
+						<li><a href="schedule.html" id="matches" data-icon="custom">SCHEDULE</a></li>	
+						<li><a href="stats.html" id="stats" data-icon="custom">STATS</a></li>
+						<li><a href="settings.html" id="settings" data-icon="custom">SETTINGS</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /header -->
+			
+			<div data-role="content">
+				<div id="teams-content" data-role="collapsible-set" >
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3><img src="img/flags-24/alg.png" /> Algeria (ALG)</h3>
+						<ul id="team-alg" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-alg" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-alg" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-alg" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-alg" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-alg" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/arg.png" /> Argentina (ARG)</h3>
+						<ul id="team-arg" data-role="listview" data-inset="false" data-divider-theme="a" data-scroll="true">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-arg" data-role="listview">
+									<li>
+										<img src="img/teams/arg/1.png" width="70" height="70">
+										<h2 class="player-name">1. Sergio Romero</h2>
+										<table class="player-profile">
+											<tbody>
+												<tr>
+													<td class="width33pc"><b>Born: </b>Feb 22, 1987</td>								
+													<td><b>Caps: </b>45</td>
+												</tr>
+												<tr>
+													<td class="width33pc"><b>Height: </b>1.92m (6ft 4in)</td>
+													<td><b>Goals: </b>0</td>
+												</tr>
+											</tbody>
+										</table>
+									</li>
+									<li>
+										<img src="img/teams/arg/1.png">
+										<h2 class="player-name">21. Mariano And&uacute;jar</h2>
+										<table class="player-profile">
+											<tbody>
+												<tr>
+													<td class="width33pc"><b>Born: </b>Jul 30, 1983</td>								
+													<td><b>Caps: </b>10</td>
+												</tr>
+												<tr>
+													<td class="width33pc"><b>Height: </b>1.94m (6ft 4<small>1/2</small>in)</td>
+													<td><b>Goals: </b>0</td>
+												</tr>
+											</tbody>
+										</table>
+									</li>
+									<li>
+										<img src="img/teams/arg/1.png">
+										<h2 class="player-name">12. Agust&iacute;n Ori&oacute;n</h2>
+										<table class="player-profile">
+											<tbody>
+												<tr>
+													<td class="width33pc"><b>Born: </b>Jul 26, 1981</td>								
+													<td><b>Caps: </b>3</td>
+												</tr>
+												<tr>
+													<td class="width33pc"><b>Height: </b>1.87m (6ft 2in)</td>
+													<td><b>Goals: </b>0</td>
+												</tr>
+											</tbody>
+										</table>
+									</li>
+								</ul>
+							</li>
+							
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-arg" data-role="listview"></ul>
+							</li>
+							
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-arg" data-role="listview"></ul>
+							</li>
+							
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-arg" data-role="listview"></ul>
+							</li>
+							
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-arg" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/aus.png" /> Australia (AUS)</h3>
+						<ul id="team-aus" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-aus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-aus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-aus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-aus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-aus" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/bel.png" /> Belgium (BEL)</h3>
+						<ul id="team-bel" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-bel" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-bel" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-bel" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-bel" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-bel" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/bih.png" /> Bosnia-Herzegovina (BIH)</h3>
+						<ul id="team-bih" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-bih" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-bih" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-bih" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-bih" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mid-bih" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/bra.png" /> Brazil (BRA)</h3>
+						<ul id="team-bra" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-bra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-bra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-bra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-bra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-bra" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/cmr.png" /> Cameroon (CMR)</h3>
+						<ul id="team-cmr" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-cmr" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-cmr" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-cmr" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-cmr" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-cmr" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/chi.png" /> Chile (CHI)</h3>
+						<ul id="team-chi" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-chi" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-chi" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-chi" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-chi" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-chi" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/col.png" /> Colombia (COL)</h3>
+						<ul id="team-col" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-col" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-col" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-col" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-col" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-col" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/crc.png" /> Costa Rica (CRC)</h3>
+						<ul id="team-crc" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-crc" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-crc" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-crc" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-crc" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-crc" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/civ.png" /> Cote d'Ivoire (CIV)</h3>
+						<ul id="team-civ" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-civ" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-civ" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-civ" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-civ" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-civ" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/cro.png" /> Croatia (CRO)</h3>
+						<ul id="team-cro" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-cro" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-cro" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-cro" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-cro" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-cro" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/ecu.png" /> Ecuador (ECU)</h3>
+						<ul id="team-ecu" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-ecu" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-ecu" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-ecu" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-ecu" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-ecu" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/eng.png" /> England (ENG)</h3>
+						<ul id="team-eng" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-eng" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-eng" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-eng" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-eng" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-eng" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/fra.png" /> France (FRA)</h3>
+						<ul id="team-fra" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-fra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-fra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-fra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-fra" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-fra" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/ger.png" /> Germany (GER)</h3>
+						<ul id="team-ger" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-ger" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-ger" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-ger" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-ger" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-ger" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/gha.png" /> Ghana (GHA)</h3>
+						<ul id="team-gha" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-gha" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-gha" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-gha" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-gha" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-gha" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/gre.png" /> Greece (GRE)</h3>
+						<ul id="team-gre" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-gre" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-gre" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-gre" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-gre" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-gre" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/hon.png" /> Honduras (HON)</h3>
+						<ul id="team-hon" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-hon" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-hon" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-hon" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-hon" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-hon" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/irn.png" /> Iran (IRN)</h3>
+						<ul id="team-irn" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-irn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-irn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-irn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-irn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-irn" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/ita.png" /> Italy (ITA)</h3>
+						<ul id="team-ita" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-ita" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-ita" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-ita" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-ita" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-ita" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/jpn.png" /> Japan (JPN)</h3>
+						<ul id="team-jpn" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-jpn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-jpn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-jpn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-jpn" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-jpn" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/kor.png" /> Korea Republic (KOR)</h3>
+						<ul id="team-kor" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-kor" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-kor" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-kor" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-kor" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-kor" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/mex.png" /> Mexico (MEX)</h3>
+						<ul id="team-mex" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-mex" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-mex" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-mex" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-mex" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-mex" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/nga.png" /> Nigeria (NGA)</h3>
+						<ul id="team-nga" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-nga" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-nga" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-nga" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-nga" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-nga" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/ned.png" /> Netherlands (NED)</h3>
+						<ul id="team-ned" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-ned" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-ned" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-ned" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-ned" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-ned" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/por.png" /> Portugal (POR)</h3>
+						<ul id="team-por" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-por" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-por" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-por" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-por" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-por" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/rus.png" /> Russia (RUS)</h3>
+						<ul id="team-rus" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-rus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-rus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-rus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-rus" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-rus" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/esp.png" /> Spain (ESP)</h3>
+						<ul id="team-esp" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-esp" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-esp" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-esp" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-esp" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-esp" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/sui.png" /> Switzerland (SUI)</h3>
+						<ul id="team-sui" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-sui" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-sui" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-sui" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-sui" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-sui" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/usa.png" /> United States (USA)</h3>
+						<ul id="team-usa" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-usa" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-usa" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-usa" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-usa" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-usa" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-iconpos="right"> 
+						<h3 class="ui-icon-arrow-d"><img src="img/flags-24/uru.png" /> Uruguay (URU)</h3>
+						<ul id="team-uru" data-role="listview" data-inset="false" data-divider-theme="a">
+							<li data-role="list-divider">Goalkeepers</li>
+							<li>
+								<ul id="gkp-uru" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Defenders</li>
+							<li>
+								<ul id="def-uru" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Midfielders</li>
+							<li>
+								<ul id="mid-uru" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Forwards</li>
+							<li>
+								<ul id="fwd-uru" data-role="listview"></ul>
+							</li>
+							<li data-role="list-divider">Manager</li>
+							<li>
+								<ul id="mgr-uru" data-role="listview"></ul>
+							</li>
+						</ul>
+					</div>
+				</div>			
+			</div>
+			<!-- /content -->	
+
+			<div data-role="footer" data-theme="a" data-content-theme="a" data-position="fixed">
+				<h4>&copy; 2014 All rights reserved.</h4>
+			</div> 
+			<!-- /footer -->
+			
+		</div>
+		<!-- /TEAMS PAGE -->
+			
+   </body>
+</html>

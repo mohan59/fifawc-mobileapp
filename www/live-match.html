@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>2014 FIFA World Cup</title>
+   </head>
+   <body>	
+		<!-- LIVE MATCH PAGE -->
+		<div id="live-page" data-role="page" class="app-bg">
+			<div data-role="header" data-theme="a" data-content-theme="a" class="navbar-icon-style wc-text" data-position="fixed">
+				<h1>2014 FIFA World Cup</h1>
+				<div data-role="navbar" class="navbar-icon-style">
+					<ul>
+						<li><a href="live-match.html" id="live" data-icon="custom" class="ui-btn-active select-nav">LIVE</a></li>
+						<li><a href="teams.html" id="squads" data-icon="custom">TEAMS</a></li>					
+						<li><a href="schedule.html" id="matches" data-icon="custom">SCHEDULE</a></li>	
+						<li><a href="stats.html" id="stats" data-icon="custom">STATS</a></li>
+						<li><a href="settings.html" id="settings" data-icon="custom">SETTINGS</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /header -->
+			
+			<div data-role="content" class="live-page-content" data-theme="a" data-content-theme="a" >
+			
+				<div class="match-update-container" >					
+					<table class="table-match-update">
+						<tbody>
+							<tr>
+								<th><a href="#" id="refreshLiveMatch"><img src="img/refresh.png"></img></a></th>
+								<th>0"</th>
+								<th><a href="#" id="closeLiveMatch"><img src="img/cross.png"></img></a></th>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<ul id="live-match-content" data-role="listview" data-inset="true">
+					<li data-role="list-divider">Match #1</li>
+					<li>
+						<p class="match-details">							
+							<span class="width33pc">Thu Jun 12, 5:00p</span>
+							<span class="width33pc">S&#227;o Paulo</span>
+						</p>
+						<table class="table-live-score"> 
+							<thead> 
+								<tr> 
+									<th scope="col"></th>  
+									<th scope="col"></th>
+									<th scope="col"></th>								
+								</tr> 
+							</thead> 
+							<tbody> 
+								<tr> 
+									<th><img src="img/flags-64/bra.png"></img></th>
+									<td></td>
+									<th><img src="img/flags-64/cro.png"></img></th> 
+								</tr> 
+								<tr> 
+									<th>BRAZIL</th>
+									<td></td>
+									<th>CROATIA</th> 
+								</tr>
+								<tr> 
+									<th class="live-score-goal">0 [0]</th>
+									<td></td>
+									<th class="live-score-goal">0 [0]</th> 
+								</tr>
+							</tbody> 
+						</table>
+					</li>
+					
+					<li data-role="list-divider">Match #2</li>
+					<li>
+						<p class="match-details">							
+							<span class="width33pc">Fri Jun 13, 1:00p</span>
+							<span class="width33pc">Natal</span>
+						</p>
+						<table class="table-live-score"> 
+							<thead> 
+								<tr> 
+									<th scope="col"></th>  
+									<th scope="col"></th>
+									<th scope="col"></th>								
+								</tr> 
+							</thead> 
+							<tbody> 
+								<tr> 
+									<th><img src="img/flags-64/mex.png"></img></th>
+									<td></td>
+									<th><img src="img/flags-64/cmr.png"></img></th> 
+								</tr> 
+								<tr> 
+									<th>MEXICO</th>
+									<td></td>
+									<th>CAMEROON</th> 
+								</tr>
+								<tr> 
+									<th class="live-score-goal">0 [0]</th>
+									<td></td>
+									<th class="live-score-goal">0 [0]</th> 
+								</tr>
+							</tbody> 
+						</table>
+					</li>
+				</ul>			
+			</div>
+			<!-- /content -->		
+
+			<div data-role="footer" data-theme="a" data-content-theme="a" data-position="fixed">
+				<h4>&copy; 2014 All rights reserved.</h4>
+			</div> 
+			<!-- /footer -->
+
+		</div>
+		<!-- /LIVE MATCH PAGE -->
+			
+   </body>
+</html>

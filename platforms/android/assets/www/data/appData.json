@@ -1,0 +1,56 @@
+{
+	"appHeader": "2014 FIFA World Cup BRAZIL",
+	"appFooter": "&copy; 2014 All rights reserved.",
+	"index": {
+		"trivia": [
+			{
+				"triviaText": "This is the <b>20th edition</b> of the quadrennial FIFA World Cup. The inaugural tournament was held in 1930 and the hosts Uruguay were crowned champions after defeating Argentina 4&#45;2 in the final. Francisco Varallo, an Argentine forward, was the last player from that edition to pass away on August 30 2010&#33;"
+			},
+			{
+				"triviaText": "There are <b>12 stadia in 12 host cities</b>. FIFA, the governing body, normally limits the number of host cities between 8 and 10 but accepted a proposal by former head of the Brazilian Football Federation to increase the number <i>&quot;in the interests of the whole country&quot;</i>."
+			},
+			{
+				"triviaText": "Match-balls are specifically created for the tournament with a unique name. Adidas, the official ball supplier since 1970, had a shortlist of 3 names for a public vote - <i>Bossa Nova</i>, <i>Carnavalesca</i>, and eventual winner, <i><b>Brazuca</b></i> (see below).<br/><br/><img src='img/brazuca.jpg' />"
+			}				
+		]
+	},
+	"teams": [
+		{
+			"team": "arg",
+			"players": [
+				{
+					"playerName": "Sergio Romero",
+					"playerSquadNum": "1",
+					"playerPosition": "gkp",
+					"playerBirthDate": "Feb 22, 1987",
+					"playerCaps": "45",
+					"playerGoals": "0"
+				},
+				{
+					"playerName": "Pablo Zabaleta",
+					"playerSquadNum": "4",
+					"playerPosition": "def",
+					"playerBirthDate": "Jan 16, 1985",
+					"playerCaps": "36",
+					"playerGoals": "0"
+				},
+				{
+					"playerName": "&Aacute;ngel di Mar&iacute;a",
+					"playerSquadNum": "7",
+					"playerPosition": "mid",
+					"playerBirthDate": "Feb 14, 1988",
+					"playerCaps": "45",
+					"playerGoals": "9"
+				},
+				{
+					"playerName": "Lionel Messi (C)",
+					"playerSquadNum": "10",
+					"playerPosition": "fwd",
+					"playerBirthDate": "Jun 24, 1987",
+					"playerCaps": "84",
+					"playerGoals": "37"
+				}
+			]
+		} 
+	]
+}

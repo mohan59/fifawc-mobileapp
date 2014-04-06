@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>2014 FIFA World Cup</title>
+   </head>
+   <body>	
+		<!-- SCHEDULE PAGE -->
+		<div id="matches-page" data-role="page" class="app-bg">
+			<div data-role="header" data-theme="a" style="overflow:hidden;" class="navbar-icon-style wc-text" data-position="fixed">
+				<h1>2014 FIFA World Cup</h1>
+				<div data-role="navbar" class="navbar-icon-style">
+					<ul>
+						<!-- <li><a href="live-match.html" id="live" data-icon="custom">LIVE</a></li> -->
+						<li><a href="teams.html" id="squads" data-icon="custom">TEAMS</a></li>						
+						<li><a href="schedule.html" id="matches" data-icon="custom" class="ui-btn-active select-nav">SCHEDULE</a></li>
+						<li><a href="stats.html" id="stats" data-icon="custom">STATS</a></li>
+						<li><a href="settings.html" id="settings" data-icon="custom">SETTINGS</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /header -->
+			
+			<div data-role="content" >
+				<ul id="schedule-content" data-role="listview" data-inset="true" data-divider-theme="a">
+					<li data-role="list-divider">Group Stage</li>
+					<li>
+						<table id="groupStageTable" class="table-games"> 							 
+							<tbody> 
+								<tr> 
+									<th>Jun 12, 5:00p</th> 
+									<td><img src="img/flags-16/bra.png" alt="Brazil"></img>&#32;BRA</td>
+									<th>0-0</th>
+									<td>CRO&#32;<img src="img/flags-16/cro.png" alt="Croatia"></img></td> 
+									<th>S&#227;o Paulo</th> 
+								</tr> 
+								<tr> 
+									<th scope="row">Jun 13, 1:00p</th> 
+									<td><img src="img/flags-16/mex.png" alt="Mexico"></img>&#32;MEX</td>
+									<th>0-0</th>
+									<td>CMR&#32;<img src="img/flags-16/cmr.png" alt="Cameroon"></img></td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 13, 4:00p</th> 
+									<td><img src="img/flags-16/esp.png" alt="Spain"></img>&#32;ESP</td>
+									<th>0-0</th>
+									<td>NED&#32;<img src="img/flags-16/ned.png" alt="Netherlands"></img></td> 
+									<th>Salvador</th> 
+								</tr>		
+								<tr> 
+									<th scope="row">Jun 13, 7:00p</th> 
+									<td><img src="img/flags-16/chi.png" alt="Chile"></img>&#32;CHI</td>
+									<th>0-0</th>
+									<td>AUS&#32;<img src="img/flags-16/aus.png" alt="Australia"></img></td> 
+									<th>Cuiab&#225;</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 14, 1:00p</th> 
+									<td><img src="img/flags-16/col.png" alt="Colombia"></img>&#32;COL</td>
+									<th>0-0</th>
+									<td>GRE&#32;<img src="img/flags-16/gre.png" alt="Greece"></img></td> 
+									<th>Belo Horizonte</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 14, 10:00p</th> 
+									<td><img src="img/flags-16/civ.png" alt="Cote d'Ivoire"></img>&#32;CIV</td>
+									<th>0-0</th>
+									<td>JPN&#32;<img src="img/flags-16/jpn.png" alt="Japan"></img></td> 
+									<th>Recife</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 14, 4:00p</th> 
+									<td><img src="img/flags-16/uru.png" alt="Uruguay"></img>&#32;URU</td>
+									<th>0-0</th>
+									<td>CRC&#32;<img src="img/flags-16/crc.png" alt="Costa Rica"></img></td> 
+									<th>Fortaleza</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 14, 7:00p</th> 
+									<td><img src="img/flags-16/eng.png" alt="England"></img>&#32;ENG</td>
+									<th>0-0</th>
+									<td>ITA&#32;<img src="img/flags-16/ita.png" alt="England"></img></td> 
+									<th>Manaus</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 15, 1:00p</th> 
+									<td><img src="img/flags-16/sui.png" alt="Switzerland"></img>&#32;SUI</td>
+									<th>0-0</th>
+									<td>ECU&#32;<img src="img/flags-16/ecu.png" alt="Ecuador"></img></td> 
+									<th>Bras&#237;lia</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 15, 4:00p</th> 
+									<td><img src="img/flags-16/fra.png" alt="France"></img>&#32;FRA</td>
+									<th>0-0</th>
+									<td>HON&#32;<img src="img/flags-16/hon.png" alt="Honduras"></img></td> 
+									<th>Porto Alegre</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 15, 7:00p</th> 
+									<td><img src="img/flags-16/arg.png" alt="Argentina"></img>&#32;ARG</td>
+									<th>0-0</th>
+									<td>BIH&#32;<img src="img/flags-16/bih.png" alt="Bosnia-Herzegovina"></img></td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 16, 4:00p</th> 
+									<td><img src="img/flags-16/irn.png" alt="Iran"></img>&#32;IRN</td>
+									<th>0-0</th>
+									<td>NGA&#32;<img src="img/flags-16/nga.png" alt="Nigeria"></img></td> 
+									<th>Curitiba</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 16, 1:00p</th> 
+									<td><img src="img/flags-16/ger.png" alt="Germany"></img>&#32;GER</td>
+									<th>0-0</th>
+									<td>POR&#32;<img src="img/flags-16/por.png" alt="Portugal"></img></td> 
+									<th>Salvador</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 16, 7:00p</th> 
+									<td><img src="img/flags-16/gha.png" alt="Ghana"></img>&#32;GHA</td>
+									<th>0-0</th>
+									<td>USA&#32;<img src="img/flags-16/usa.png" alt="United States"></img></td> 
+									<th>Natal</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 17, 1:00p</th> 
+									<td><img src="img/flags-16/bel.png" alt="Belgium"></img>&#32;BEL</td>
+									<th>0-0</th>
+									<td>ALG&#32;<img src="img/flags-16/alg.png" alt="Algeria"></img></td> 
+									<th>Belo Horizonte</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 17, 7:00p</th> 
+									<td><img src="img/flags-16/rus.png" alt="Russia"></img>&#32;RUS</td>
+									<th>0-0</th>
+									<td>KOR&#32;<img src="img/flags-16/kor.png" alt="Korea Republic"></img></td> 
+									<th>Cuiab&#225;</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 17, 4:00p</th> 
+									<td><img src="img/flags-16/bra.png" alt="Brazil"></img>&#32;BRA</td>
+									<th>0-0</th>
+									<td>MEX&#32;<img src="img/flags-16/mex.png" alt="Mexico"></img></td> 
+									<th>Fortaleza</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 18, 7:00p</th> 
+									<td><img src="img/flags-16/cmr.png" alt="Cameroon"></img>&#32;CMR</td>
+									<th>0-0</th>
+									<td>CRO&#32;<img src="img/flags-16/cro.png" alt="Croatia"></img></td> 
+									<th>Manaus</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 18, 1:00p</th> 
+									<td><img src="img/flags-16/aus.png" alt="Australia"></img>&#32;AUS</td>
+									<th>0-0</th>
+									<td>NED&#32;<img src="img/flags-16/ned.png" alt="Netherlands"></img></td> 
+									<th>Porto Alegre</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 18, 4:00p</th> 
+									<td><img src="img/flags-16/esp.png" alt="Spain"></img>&#32;ESP</td>
+									<th>0-0</th>
+									<td>CHI&#32;<img src="img/flags-16/chi.png" alt="Chile"></img></td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 19, 1:00p</th> 
+									<td><img src="img/flags-16/col.png" alt="Colombia"></img>&#32;COL</td>
+									<th>0-0</th>
+									<td>CIV&#32;<img src="img/flags-16/civ.png" alt="Cote d'Ivoire"></img></td> 
+									<th>Bras&#237;lia</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 19, 7:00p</th> 
+									<td><img src="img/flags-16/jpn.png" alt="Japan"></img>&#32;JPN</td>
+									<th>0-0</th>
+									<td>GRE&#32;<img src="img/flags-16/gre.png" alt="Greece"></img></td> 
+									<th>Natal</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 19, 4:00p</th> 
+									<td><img src="img/flags-16/uru.png" alt="Uruguay"></img>&#32;URU</td>
+									<th>0-0</th>
+									<td>ENG&#32;<img src="img/flags-16/eng.png" alt="England"></img></td> 
+									<th>S&#227;o Paulo</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 20, 1:00p</th> 
+									<td><img src="img/flags-16/ita.png" alt="Italy"></img>&#32;ITA</td>
+									<th>0-0</th>
+									<td>CRC&#32;<img src="img/flags-16/crc.png" alt="Costa Rica"></img></td> 
+									<th>Recife</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 20, 4:00p</th> 
+									<td><img src="img/flags-16/sui.png" alt="Switzerland"></img>&#32;SUI</td>
+									<th>0-0</th>
+									<td>FRA&#32;<img src="img/flags-16/fra.png" alt="France"></img></td> 
+									<th>Salvador</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 20, 7:00p</th> 
+									<td><img src="img/flags-16/hon.png" alt="Honduras"></img>&#32;HON</td>
+									<th>0-0</th>
+									<td>ECU&#32;<img src="img/flags-16/ecu.png" alt="Ecuador"></img></td> 
+									<th>Curitiba</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 21, 1:00p</th> 
+									<td><img src="img/flags-16/arg.png" alt="Argentina"></img>&#32;ARG</td>
+									<th>0-0</th>
+									<td>IRN&#32;<img src="img/flags-16/irn.png" alt="Iran"></img></td> 
+									<th>Belo Horizonte</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 21, 7:00p</th> 
+									<td><img src="img/flags-16/nga.png" alt="Nigeria"></img>&#32;NGA</td>
+									<th>0-0</th>
+									<td>BIH&#32;<img src="img/flags-16/bih.png" alt="Bosnia-Herzegovina"></img></td> 
+									<th>Cuiab&#225;</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 21, 4:00p</th> 
+									<td><img src="img/flags-16/ger.png" alt="Germany"></img>&#32;GER</td>
+									<th>0-0</th>
+									<td>GHA&#32;<img src="img/flags-16/gha.png" alt="Ghana"></img></td> 
+									<th>Fortaleza</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 22, 7:00p</th> 
+									<td><img src="img/flags-16/usa.png" alt="United States"></img>&#32;USA</td>
+									<th>0-0</th>
+									<td>POR&#32;<img src="img/flags-16/por.png" alt="Portugal"></img></td> 
+									<th>Manaus</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 22, 1:00p</th> 
+									<td><img src="img/flags-16/bel.png" alt="Belgium"></img>&#32;BEL</td>
+									<th>0-0</th>
+									<td>RUS&#32;<img src="img/flags-16/rus.png" alt="Russia"></img></td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 22, 4:00p</th> 
+									<td><img src="img/flags-16/kor.png" alt="Korea Republic"></img>&#32;KOR</td>
+									<th>0-0</th>
+									<td>ALG&#32;<img src="img/flags-16/alg.png" alt="Algeria"></img></td> 
+									<th>Porto Alegre</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 23, 5:00p</th> 
+									<td><img src="img/flags-16/cmr.png" alt="Cameroon"></img>&#32;CMR</td>
+									<th>0-0</th>
+									<td>BRA&#32;<img src="img/flags-16/bra.png" alt="Brazil"></img></td> 
+									<th>Bras&#237;lia</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 23, 5:00p</th> 
+									<td><img src="img/flags-16/cro.png" alt="Croatia"></img>&#32;CRO</td>
+									<th>0-0</th>
+									<td>MEX&#32;<img src="img/flags-16/mex.png" alt="Mexico"></img></td> 
+									<th>Recife</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 23, 1:00p</th> 
+									<td><img src="img/flags-16/aus.png" alt="Australia"></img>&#32;AUS</td>
+									<th>0-0</th>
+									<td>ESP&#32;<img src="img/flags-16/esp.png" alt="Spain"></img></td> 
+									<th>Curitiba</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 23, 1:00p</th> 
+									<td><img src="img/flags-16/ned.png" alt="Netherlands"></img>&#32;NED</td>
+									<th>0-0</th>
+									<td>CHI&#32;<img src="img/flags-16/chi.png" alt="Chile"></img></td> 
+									<th>S&#227;o Paulo</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 24, 5:00p</th> 
+									<td><img src="img/flags-16/jpn.png" alt="Japan"></img>&#32;JPN</td>
+									<th>0-0</th>
+									<td>COL&#32;<img src="img/flags-16/col.png" alt="Colombia"></img></td> 
+									<th>Cuiab&#225;</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 24, 5:00p</th> 
+									<td><img src="img/flags-16/gre.png" alt="Greece"></img>&#32;GRE</td>
+									<th>0-0</th>
+									<td>CIV&#32;<img src="img/flags-16/civ.png" alt="Cote d'Ivoire"></img></td> 
+									<th>Fortaleza</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 24, 1:00p</th> 
+									<td><img src="img/flags-16/ita.png" alt="Italy"></img>&#32;ITA</td>
+									<th>0-0</th>
+									<td>URU&#32;<img src="img/flags-16/uru.png" alt="Uruguay"></img></td> 
+									<th>Natal</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 24, 1:00p</th> 
+									<td><img src="img/flags-16/crc.png" alt="Costa Rica"></img>&#32;CRC</td>
+									<th>0-0</th>
+									<td>ENG&#32;<img src="img/flags-16/eng.png" alt="England"></img></td> 
+									<th>Belo Horizonte</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 25, 5:00p</th> 
+									<td><img src="img/flags-16/hon.png" alt="Honduras"></img>&#32;HON</td>
+									<th>0-0</th>
+									<td>SUI&#32;<img src="img/flags-16/sui.png" alt="Switzerland"></img></td> 
+									<th>Manaus</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 25, 5:00p</th> 
+									<td><img src="img/flags-16/ecu.png" alt="Ecuador"></img>&#32;ECU</td>
+									<th>0-0</th>
+									<td>FRA&#32;<img src="img/flags-16/fra.png" alt="France"></img></td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 25, 1:00p</th> 
+									<td><img src="img/flags-16/nga.png" alt="Nigeria"></img>&#32;NGA</td>
+									<th>0-0</th>
+									<td>ARG&#32;<img src="img/flags-16/arg.png" alt="Argentina"></img></td> 
+									<th>Porto Alegre</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 25, 1:00p</th> 
+									<td><img src="img/flags-16/bih.png" alt="Bosnia-Herzegovina"></img>&#32;BIH</td>
+									<th>0-0</th>
+									<td>IRN&#32;<img src="img/flags-16/irn.png" alt="Iran"></img></td> 
+									<th>Salvador</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 26, 1:00p</th> 
+									<td><img src="img/flags-16/usa.png" alt="United States"></img>&#32;USA</td>
+									<th>0-0</th>
+									<td>GER&#32;<img src="img/flags-16/ger.png" alt="Germany"></img></td> 
+									<th>Recife</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 26, 1:00p</th> 
+									<td><img src="img/flags-16/por.png" alt="Portugal"></img>&#32;POR</td>
+									<th>0-0</th>
+									<td>GHA&#32;<img src="img/flags-16/gha.png" alt="Ghana"></img></td> 
+									<th>Bras&#237;lia</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 26, 5:00p</th> 
+									<td><img src="img/flags-16/kor.png" alt="Korea Republic"></img>&#32;KOR</td>
+									<th>0-0</th>
+									<td>BEL&#32;<img src="img/flags-16/bel.png" alt="Belgium"></img></td> 
+									<th>S&#227;o Paulo</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 26, 5:00p</th> 
+									<td><img src="img/flags-16/alg.png" alt="Algeria"></img>&#32;ALG</td>
+									<th>0-0</th>
+									<td>RUS&#32;<img src="img/flags-16/rus.png" alt="Russia"></img></td> 
+									<th>Curitiba</th> 
+								</tr>
+							</tbody> 
+						</table>
+					</li>
+					
+					<li data-role="list-divider">Round of 16</li>
+					<li>
+						<table id="roundof16Table" class="table-games"> 
+							<tbody> 
+								<tr> 
+									<th scope="row">Jun 28, 1:00p</th> 
+									<td>A1</td>
+									<th>0-0</th>
+									<td>B2</td> 
+									<th>Belo Horizonte</th> 
+								</tr> 
+								<tr> 
+									<th scope="row">Jun 28, 4:00p</th> 
+									<td>C1</td>
+									<th>0-0</th>
+									<td>D2</td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 29, 1:00p</th> 
+									<td>B1</td>
+									<th>0-0</th>
+									<td>A2</td> 
+									<th>Fortaleza</th> 
+								</tr> 
+								<tr> 
+									<th scope="row">Jun 29, 5:00p</th> 
+									<td>D1</td>
+									<th>0-0</th>
+									<td>C2</td> 
+									<th>Recife</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jun 30, 1:00p</th> 
+									<td>E1</td>
+									<th>0-0</th>
+									<td>F2</td> 
+									<th>Bras&#237;lia</th> 
+								</tr> 
+								<tr> 
+									<th scope="row">Jun 30, 5:00p</th> 
+									<td>G1</td>
+									<th>0-0</th>
+									<td>H2</td> 
+									<th>Porto Alegre</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jul 1, 1:00p</th> 
+									<td>F1</td>
+									<th>0-0</th>
+									<td>E2</td> 
+									<th>S&#227;o Paulo</th> 
+								</tr> 
+								<tr> 
+									<th scope="row">Jul 1, 5:00p</th> 
+									<td>H1</td>
+									<th>0-0</th>
+									<td>G2</td> 
+									<th>Salvador</th> 
+								</tr>
+							</tbody> 
+						</table>
+					</li>
+					
+					<li data-role="list-divider">Quarter Finals</li>
+					<li>
+						<table id="quarterFinalsTable" class="table-games"> 
+							<tbody>
+								<tr> 
+									<th scope="row">Jul 4, 1:00p</th> 
+									<td>Winner R16 5</td>
+									<th>0-0</th>
+									<td>Winner R16 6</td> 
+									<th>Rio de Janeiro</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jul 4, 5:00p</th> 
+									<td>Winner R16 1</td>
+									<th>0-0</th>
+									<td>Winner R16 2</td> 
+									<th>Fortaleza</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jul 5, 1:00p</th> 
+									<td>Winner R16 7</td>
+									<th>0-0</th>
+									<td>Winner R16 8</td> 
+									<th>Bras&#237;lia</th> 
+								</tr>
+								<tr> 
+									<th scope="row">Jul 5, 5:00p</th> 
+									<td>Winner R16 3</td>
+									<th>0-0</th>
+									<td>Winner R16 4</td> 
+									<th>Salvador</th> 
+								</tr> 								
+							</tbody> 
+						</table>
+					</li>
+					
+					<li data-role="list-divider">Semi Finals</li>
+					<li>
+						<table id="semiFinalsTable" class="table-games"> 
+							<tbody> 
+								<tr> 
+									<th scope="row">Jul 8, 5:00p</th> 
+									<td>Winner QF 1</td>
+									<th>0-0</th>
+									<td>Winner QF 2</td> 
+									<th>Belo Horizonte</th> 
+								</tr> 
+								<tr> 
+									<th scope="row">Jul 9, 5:00p</th> 
+									<td>Winner QF 3</td>
+									<th>0-0</th>
+									<td>Winner QF 4</td> 
+									<th>S&#227;o Paulo</th> 
+								</tr>
+							</tbody> 
+						</table>
+					</li>
+					
+					<li data-role="list-divider">Third Place Playoff</li>
+					<li>
+						<table id="thirdPlaceTable" class="table-games"> 
+							<tbody> 
+								<tr> 
+									<th scope="row">Jul 12, 5:00p</th> 
+									<td>Loser SF 1</td>
+									<th>0-0</th>
+									<td>Loser SF 2</td> 
+									<th>Bras&#237;lia</th> 
+								</tr> 
+							</tbody> 
+						</table>
+					</li>
+					
+					<li data-role="list-divider">Final</li>
+					<li>
+						<table id="finalTable" class="table-games"> 
+							<tbody> 
+								<tr> 
+									<th scope="row">Jul 13, 4:00p</th> 
+									<td>Winner SF 1</td>
+									<th>0-0</th>
+									<td>Winner SF 2</td> 
+									<th>Rio de Janeiro</th> 
+								</tr> 
+							</tbody> 
+						</table>
+					</li>
+				</ul>
+			</div>
+			<!-- /content -->	
+			
+			<div data-role="footer" data-theme="a" data-content-theme="a" data-position="fixed">
+				<h4>&copy; 2014 All rights reserved.</h4>
+			</div> 
+			<!-- /footer -->
+			
+		</div>
+		<!-- /SCHEDULE PAGE -->
+			
+   </body>
+</html>
